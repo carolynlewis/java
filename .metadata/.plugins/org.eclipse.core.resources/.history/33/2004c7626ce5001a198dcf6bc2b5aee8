@@ -1,0 +1,23 @@
+
+import java.util.Scanner;
+
+/*
+* convert celcius to fahrenheit
+*/
+
+public class E3_2 {
+	public static void main(String[] args) {
+		
+			double celsius;
+			double fahrenheit;
+			final double FAHRENHEIT_FORMULA = ( ( (celsius * (9.0 / 5.0) ) + 32.0 ) );
+			
+			Scanner in = new Scanner(System.in);
+			
+		System.out.print("Enter a temperature in Celsius: ");
+			celsius = in.nextDouble();
+			
+		System.out.println(celsius + " C = " + FAHRENHEIT_FORMULA + " F");
+		
+	}
+}

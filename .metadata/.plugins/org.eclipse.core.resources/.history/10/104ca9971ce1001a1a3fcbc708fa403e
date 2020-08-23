@@ -1,0 +1,49 @@
+
+import java.util.Scanner;
+
+public class Chap3 {
+	public static void main(String[] args) {
+		
+		System.out.println("Chapter 3");
+		
+		System.out.println("\n----- 3.1 -----");
+		
+		System.out.println(System.out);
+		
+		System.out.println("\n----- 3.2 -----");
+		
+			String line;
+			Scanner in = new Scanner(System.in);
+		
+		System.out.print("Type something: ");
+			line = in.nextLine ();
+		System.out.println("You said: " + line);
+		
+		System.out.print("Type something else: ");
+			line = in.nextLine();
+		System.out.println("You also said: " + line);
+		
+		System.out.println("\n----- 3.3 -----");
+		
+		System.out.println("package > class > method > statement > expression > token");
+		
+		System.out.println("\n----- 3.4 -----");
+		
+			int inch;
+			double cm;
+			final double cmPerInch = 2.54;
+			Scanner inputInch = new Scanner(System.in);
+		System.out.print("How many inches? ");
+			inch =  inputInch.nextInt ();
+			cm = inch * cmPerInch;
+		System.out.print(inch + " in = ");
+		System.out.println(cm + " cm");
+		
+		System.out.println("\n----- 3.5 -----");
+		
+		System.out.println(4.0 / 3.0);
+		System.out.printf("Four thirds = %.3f\n", 4.0/3.0);
+		System.out.printf("%d in = %.3f cm\n", inch, cm);
+		
+	}
+}

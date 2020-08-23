@@ -1,0 +1,28 @@
+
+import java.util.Scanner;
+
+/*
+ * convert seconds to hours, minutes, seconds
+ */
+
+public class E3_3 {
+	public static void main(String [] args) {
+		
+		Scanner in = new Scanner(System.in);
+			
+		System.out.print("Enter amount of seconds: ");
+			int seconds = in.nextInt();
+		
+			final int HOUR_FORMULA = seconds / 60 / 60;
+			final int MINUTE_FORMULA = seconds / 60 % 60;
+			final int SECOND_FORMULA = seconds % 60 % 60;
+		
+		System.out.print(seconds + " seconds = ");
+		System.out.print(HOUR_FORMULA + " hours, ");
+		System.out.print(MINUTE_FORMULA + " minutes, and ");
+		System.out.print(SECOND_FORMULA + " seconds\n");
+
+			// the instructions say to use printf, but it is already formatted correctly
+		
+	}
+}

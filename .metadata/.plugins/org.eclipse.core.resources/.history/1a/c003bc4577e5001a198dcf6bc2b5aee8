@@ -1,0 +1,23 @@
+
+import java.util.Scanner;
+
+/*
+ * convert seconds to hours, minutes, seconds
+ */
+
+public class E3_3 {
+	public static void main(String [] args) {
+		
+			Scanner in = new Scanner(System.in);
+		
+			int hours;
+			int minutes;
+			int seconds = 5000;
+			final int HOUR_FORMULA = seconds / 60 / 60;
+			final int MINUTE_FORMULA = seconds / 60 % 60;
+			final int SECOND_FORMULA = seconds / 60 % 60 % 60;
+		
+		System.out.println(HOUR_FORMULA + " hours, " + MINUTE_FORMULA + " minutes, " + SECOND_FORMULA + " seconds");
+		
+	}
+}

@@ -1,0 +1,60 @@
+
+class Maths {
+	public static void main(String[] args) {
+        String name="Carolyn";
+        int age=41;
+        double score=3.14;
+        char group='C';
+            System.out.println(age);
+        int sum=20+30;
+            System.out.println(sum);
+            System.out.println(name);
+        ++age;
+            System.out.println(age);
+        ++age;
+            System.out.println(age);
+        ++age;
+            System.out.println(age);
+        ++age;
+            System.out.println(age);
+        ++age;
+            System.out.println(age);
+        ++age;
+            System.out.println(age);
+        ++age;
+            System.out.println(age);
+            System.out.println("----------");
+        int num1=4;
+        int num2=8;
+        num2 += num1;
+            System.out.println(num2 + name + "happy");
+            System.out.println("----------");
+// input       Scanner myVar = new Scanner(System.in);
+// input            System.out.println("You input "+myVar.nextLine()+" Why?");
+// But are you really?
+/* Perhaps
+Perhaps not */
+            System.out.println("----------");
+		int a=12,b=5;
+		double aa=12,bb=5;
+			System.out.println("a = "+a+" and b = "+b);
+		int sum1=a+b,sum2=a-b,sum3=a*b,sum4=a/b,sum5=a%b;
+		double sum6=aa/bb;
+			System.out.println("a + b = "+sum1);
+			System.out.println("a - b = "+sum2);
+			System.out.println("a * b = "+sum3);
+			System.out.println("a / b = "+sum4+" with a remainder of "+sum5);
+			System.out.println("a / b = "+sum6);
+		++a;
+		++b;
+			System.out.println("a is now = "+a+" and b is now = "+b);
+		a-=b;
+		b+=a;
+			System.out.println("a is now = "+a+" and b is now = "+b);
+			System.out.println("a + b = "+sum1);
+			System.out.println("a - b = "+sum2);
+			System.out.println("a * b = "+sum3);
+			System.out.println("a / b = "+sum4+" with a remainder of "+sum5);
+			System.out.println("a / b = "+sum6);
+	}
+}

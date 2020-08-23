@@ -1,0 +1,7 @@
+public class Chap2 {
+	public static void main(String[] args) {
+		System.out.println("Chapter 2\n----------");
+			String message;
+			int x;
+	}
+}

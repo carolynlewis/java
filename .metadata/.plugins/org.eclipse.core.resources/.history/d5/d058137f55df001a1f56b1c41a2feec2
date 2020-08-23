@@ -1,0 +1,13 @@
+
+class Maths {
+	public static void main(String[] args) {
+		int a=12,b=9;
+			System.out.println("a = "+a+" and b = "+b);
+		int sum1=a+b,sum2=a-b,sum3=a*b,sum4=a/b,sum5=a%b;
+			System.out.println("a + b = "+sum1);
+			System.out.println("a - b = "+sum2);
+			System.out.println("a * b = "+sum3);
+			System.out.println("a / b = "+sum4+" with a remainder of "+sum5);
+		
+	}
+}

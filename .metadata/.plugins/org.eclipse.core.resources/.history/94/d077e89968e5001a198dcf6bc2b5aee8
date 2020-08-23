@@ -1,0 +1,12 @@
+
+public class E3_1 {
+	public static void main(String[] args) {
+		
+			int x = 12;
+			double y = 3.14;
+		System.out.println(x + " " + y);
+		System.out.printf("%08d", x);
+		System.out.printf("%.5f", y)
+		
+	}
+}

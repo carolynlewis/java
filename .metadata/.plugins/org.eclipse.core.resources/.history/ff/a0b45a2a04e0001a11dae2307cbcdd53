@@ -1,0 +1,10 @@
+public class Chap2 {
+	public static void main(String[] args) {
+		System.out.println("Chapter 2\n----------");
+			String message;
+			int x;
+			String firstName;
+			String lastName;
+			int hour, minute;
+	}
+}

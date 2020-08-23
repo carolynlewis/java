@@ -1,0 +1,33 @@
+
+import java.util.Scanner;
+
+public class Chap3 {
+	public static void main(String[] args) {
+		
+		//System.out.println(System.out);
+		
+		//	String line;
+		//	Scanner in = new Scanner(System.in);
+		
+		//System.out.print("Type something: ");
+		//	line = in.nextLine ();
+		//System.out.println("You said: " + line);
+		
+		//System.out.print("Type something else: ");
+		//	line = in.nextLine();
+		//System.out.println("You also said: " + line);
+		
+			int inch;
+			double cm;
+			final double cmPerInch = 2.54;
+			Scanner in = new (System.in);
+		System.out.print("How many inches? ");
+			inch =  in.nextInt ();
+			cm = inch * cmPerInch;
+		System.out.print(inch + " in = ");
+		System.out.println(cm + " cm");
+		
+		
+		
+	}
+}

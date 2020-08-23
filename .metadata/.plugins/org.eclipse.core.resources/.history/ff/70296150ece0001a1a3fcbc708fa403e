@@ -1,0 +1,12 @@
+
+import java.util.Scanner;
+
+public class Chap3 {
+	public static void main(String[] args) {
+		
+		System.out.println(System.out);
+		
+		Scanner in = new Scanner(System.in);
+		
+	}
+}

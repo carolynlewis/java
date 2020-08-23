@@ -1,0 +1,19 @@
+
+public class Time {
+	public static void main(String[] args) {
+		
+		System.out.println("Exercise 2.3");
+		System.out.println("---------");
+		
+			int hour = 22;
+			int minute = 57;
+			int second = 32;
+			
+		System.out.print( (hour * 60 * 60) + (minute * 60) + (second) );
+		System.out.println(" seconds have passed today");
+		
+		System.out.print( (24 * 60 *60) - (hour * 60 * 60) + (minute * 60) + (second) );
+		System.out.println(" seconds remaining in the day");
+		
+	}
+}

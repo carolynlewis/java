@@ -1,0 +1,29 @@
+public class Chap2 {
+	public static void main(String[] args) {
+		System.out.println("Chapter 2\n----------");
+		
+			String message; // declare the variable message as a string
+			int x; // declare the variable x as an int
+			
+			String firstName = "Carolyn";
+			String lastName = "Lewis";
+			int hour = 11;
+			int minute = 59;
+			
+			message = "Hello!"; // assign the value of message to "Hello!"
+			// hour = 11; //assign the value of 11 to hour
+			// minute = 59; //assign the value of minute to 59
+			
+		System.out.println("My name is "+firstName+" "+lastName);
+		System.out.println("It is "+hour+":"+minute+" and I say "+message);
+		System.out.println(message+" "+message);
+		System.out.println("I don't know why you say goodbye, I say "+message);
+		
+			hour=-10;
+			minute=-41;
+		
+		System.out.println("Actually it is "+hour+":"+minute+" pm");
+		
+			
+	}
+}
